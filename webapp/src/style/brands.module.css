@@ -1,0 +1,25 @@
+.brandsContainer {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh; 
+    border: 1px solid #ddd;
+    margin-bottom: 4rem;
+}
+
+.brandsContainer h2 {
+    font-size: 2rem;
+    margin: 0 rem; 
+}
+
+.chanel,
+.prada,
+.denim {
+    color: #333;
+}
+
+.louisVuitton,
+.calvinKlein {
+    color: #777;
+}

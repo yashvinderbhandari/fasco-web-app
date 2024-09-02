@@ -1,0 +1,23 @@
+.buttonContainer {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-around; 
+  gap: 1px; 
+  margin: 3rem;
+}
+
+.customButton {
+  background-color: transparent; 
+  color: #333; 
+  border: none; 
+  border-radius: 4px; 
+  padding: 0.5rem 1rem; 
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.customButton:hover {
+  background-color: #333; 
+  color: #fff; 
+}
